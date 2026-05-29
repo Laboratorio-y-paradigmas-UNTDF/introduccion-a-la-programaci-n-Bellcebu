@@ -314,3 +314,6 @@
        (filter #(>= (:nota %) 6))
        (sort-by :nota >)
        (mapv :nombre)))
+
+
+
